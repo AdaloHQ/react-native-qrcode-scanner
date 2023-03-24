@@ -4,7 +4,6 @@
   "description": "A QR code scanner for React Native.",
   "main": "index.js",
   "scripts": {
-    "postinstall": "react-native setup-ios-permissions && pod-install",
     "test": "echo \"Error: no test specified\" && exit 1",
     "precommit": "lint-staged"
   },
@@ -26,11 +25,8 @@
   "bugs": {
     "url": "https://github.com/moaazsidat/react-native-qrcode-scanner/issues"
   },
-  "reactNativePermissionsIOS": ["Camera"],
   "dependencies": {
-    "prop-types": "^15.5.10",
-    "react-native-permissions": "3.8.0",
-    "pod-install": "0.1.38"
+    "prop-types": "^15.5.10"
   },
   "devDependencies": {
     "@semantic-release/git": "^9.0.0",
